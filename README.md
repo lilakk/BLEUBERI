@@ -36,6 +36,11 @@ Check [training](training) for details on creating training data and running GRP
 
 To replicate benchmark evaluation results, see [eval](eval).
 
+## BLEUBERI helps to generate more factuall grounded generations
+<img src="assets/factuality_veriscore.png" alt="Figure 3: Factuality results for trained Qwen2.5-7B models across three QA datasets evaluated using VERISCORE. The K values (in parentheses on the x-axis) used for each dataset follow the original paper." width="400">
+
+We evaluate the factual accuracy of Qwen2.5-7B variants using [VERISCORE](https://github.com/Yixiao-Song/VeriScore/tree/main), a metric designed for long-form factual generation. While BLEU is often seen as weak on factuality, recent work shows it can be helpful when optimized properly. Our BLEUBERI model, trained with BLEU-based RL, outperforms GRPO-RM and SFT on most datasets, suggesting BLEU optimization can still lead to more grounded outputs.
+
 ## Contact
 
 If you have any questions, feel free to open a GitHub issue or email Yapei (yapeic@umd.edu).
