@@ -1,0 +1,5 @@
+ckpts/
+training/wandb/
+**/annotations_seed0_configs.json
+**/__pycache__/
+*cache*

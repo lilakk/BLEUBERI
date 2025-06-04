@@ -1,0 +1,6 @@
+bench_name: arena-hard-v2.0
+# bench_name: tmp
+
+# a list of model to generate answers
+model_list:
+  - gpt-4-turbo-2024-04-09
