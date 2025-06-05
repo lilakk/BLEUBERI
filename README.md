@@ -39,9 +39,7 @@ Check [training](training) for details on creating training data and running GRP
 
 ### Dataset and model releases
 
-For our 50K data pool obtained from the [Tulu3 SFT mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture), we collected synthetic responses from the following LLMs: `claude-3-7-sonnet@20250219`, `deepseek-chat-v3`, `gemini-2.5-pro-exp-03-25`, `o4-mini-2025-04-16`, `Llama-3.1-8B-Instruct`. The resulting dataset, [BLEUBERI-Tulu3-50k](https://huggingface.co/datasets/yapeichang/BLEUBERI-Tulu3-50k), is publicly available on Hugging Face.
-
-Trained models reported in our main experiment table (Table 1) can be found [here](https://huggingface.co/collections/yapeichang/bleuberi-6840b3b9d02ff86c5878dafa).
+For our 50K data pool obtained from the [Tulu3 SFT mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture), we collected synthetic responses from the following LLMs: `claude-3-7-sonnet@20250219`, `deepseek-chat-v3`, `gemini-2.5-pro-exp-03-25`, `o4-mini-2025-04-16`, `Llama-3.1-8B-Instruct`. **The resulting dataset, [BLEUBERI-Tulu3-50k](https://huggingface.co/datasets/yapeichang/BLEUBERI-Tulu3-50k), is publicly available. Trained models reported in our main experiment table can be found [here](https://huggingface.co/collections/yapeichang/bleuberi-6840b3b9d02ff86c5878dafa).**
 
 ## BLEUBERI-trained models generate more factually grounded outputs
 
